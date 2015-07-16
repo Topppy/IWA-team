@@ -2,65 +2,84 @@
 <html lang="zh">
 <head>
   <title>IWA-team's website</title>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <link rel="icon" href="./img/logo.png" />
-  <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <link rel="icon" href="./img/logo.png"/>
+  <link href="//cdn.bootcss.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+  <!--<link rel="stylesheet" type="text/css" media="screen" href="./css/index.css"/>-->
+  <link rel="stylesheet/less" href="./css/index.less"/>
 </head>
 <body>
-<body>
-  <div id="header">
+<div class="container-fluid">
+  <header class="jumbotron">
+    <h1>Who We Are</h1>
+    <p>We are IWA-team</p>
+  </header>
+  <section class="container-fluid">
+    <table class="table table-hover table-bordered">
+      <thead>
+        <tr>
+          <th class="text-center">昵称</th>
+          <th class="text-center">github账号</th>
+          <th class="text-center">QQ</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><abbr title="女">鸣鸣</abbr></td>
+          <td><a href="https://github.com/Topppy">Topppy</a></td>
+          <td>957041561</td>
+        </tr>
+        <tr>
+          <td><abbr title="男">kyzon</abbr></td>
+          <td><a href="https://github.com/yankezhong">yankezhong</a></td>
+          <td>417467188</td>
+        </tr>
+        <tr>
+          <td><abbr title="男">XXX</abbr></td>
+          <td><a href="#">XXX</a></td>
+          <td>XXX</td>
+        </tr>
+        <tr>
+          <td><abbr title="男">XXX</abbr></td>
+          <td><a href="#">XXX</a></td>
+          <td>XXX</td>
+        </tr>
+        <tr>
+          <td><abbr title="男">XXX</abbr></td>
+          <td><a href="#">XXX</a></td>
+          <td>XXX</td>
+        </tr>
+        <tr>
+          <td><abbr title="男">XXX</abbr></td>
+          <td><a href="#">XXX</a></td>
+          <td>XXX</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+  <footer>
+    <div>
+      <h1>我们是做什么的</h1>
+      <p>我们是参加2015年百度暑期前端学习夏令营的WebApp杨帆班的一支队伍</p>
+    </div>
+  </footer>
+</div>
+<!--<div>
     <div id="we">
         <h1>我们是谁</h1>
         <h2>我们是 IWA-team 团队</h2>
     </div>
-    <div id="introduce">
+    <div>
         <p>队员们介绍下自己吧</p>
-    <table>
-            <thead>
-                <tr>
-                 <th>昵称</th>
-                 <th>github账号</th>
-                 <th>QQ</th>
-                </tr>
-            </thead>
-      <tbody>
-            <tr>
-                <td ><abbr title="女">鸣鸣</abbr></td>
-                <td ><a href="https://github.com/Topppy">Topppy</a></td>
-                <td >957041561</td>
-            </tr>
-            <tr>
-                <td ><abbr title="男">XXX</abbr></td>
-                <td><a href="#">XXX</a></td>
-                <td >XXX</td>
-            </tr>
-            <tr>
-                <td ><abbr title="男">XXX</abbr></td>
-                <td><a href="#">XXX</a></td>
-                <td >XXX</td>
-            </tr>
-            <tr>
-                <td ><abbr title="男">XXX</abbr></td>
-                <td><a href="#">XXX</a></td>
-                <td >XXX</td>
-            </tr>
-            <tr>
-                <td ><abbr title="男">XXX</abbr></td>
-                <td><a href="#">XXX</a></td>
-                <td >XXX</td>
-            </tr>
-            <tr>
-                <td ><abbr title="男">XXX</abbr></td>
-                <td><a href="#">XXX</a></td>
-                <td >XXX</td>
-            </tr>
-      </tbody>
-    </table>
+        <table>
+
+        </table>
     </div>
 
-  </div>
-  <div id="wedo">
-    <h1>我们是做什么的</h1>
-    <p>我们是参加2015年百度暑期前端学习夏令营的WebApp杨帆班的一支队伍</p>
-  </div>
+</div>
+-->
+<script src="//cdn.bootcss.com/less.js/2.5.1/less.min.js"></script>
+<script src="//cdn.bootcss.com/jquery/1.11.3/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
 </html>
