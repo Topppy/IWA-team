@@ -4,7 +4,7 @@
 | 昵称        |  github帐号  |  QQ  |
 | --------   | -----:  | :----:  |
 | 鸣鸣      |   [Topppy](https://github.com/Topppy)   | 957041561  |
-| 111      |   111   | 111  |
+| kyzon      |   [yankezhong](https://github.com/yankezhong)   | 417467188 |
 | 111     |   111   | 111  |
 | 111      |   111   | 111  |
 | 111      |   111   | 111  |
