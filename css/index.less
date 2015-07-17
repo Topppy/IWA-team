@@ -14,16 +14,24 @@ div {
 
 a {
   text-decoration: none;
-  color: #0044cc;
+  color: #0099cc;
+  &:hover {
+    color: #0000FF;
+  }
 }
 
-a:hover {
-  color: #0000FF;
+table.table {
+  &.table-hover tbody tr:hover {
+    background-color: #0099cc;
+    color: #fff;
+    a {
+      color: #fff;
+    }
+  }
 }
 
-table.table.table-hover tbody tr:hover {
-  background-color: #0099cc;
-  color: #fff;
+.jumbotron {
+  background-color: transparent;
 }
 
 /*table {
